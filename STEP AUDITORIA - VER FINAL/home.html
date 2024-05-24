@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Step Auditoria Integrada</title>
+</head>
+
+<body class="bod">
+
+      
+      <div class = "superior">
+        
+        
+        <div class = "menu">
+          
+          <nav>
+            <ul>
+              <li><p id="descricao">Insira a imagem clicando no quadro vazio, selecione a recomendação, salve e gere o relatório.</p></li>
+              <li><button class="btn btn-warning mt-2 ml-2 w-60"  onclick="gerarpdf()"><h6>GERAR</h6></button></li>
+
+                      
+              
+
+            </ul>
+  
+  
+          </nav>
+  
+        </div>
+  
+      </div>
+      <div class="page">
+      <div class = "logo">
+        <img id = logo1 src="images/logo-yellow-black-black_LocalConsultoria.png" alt="">
+
+      </div> 
+  <h4 class="tema">STEP AUDITORIA INTEGRADA</h4>
+  <div class="Estrutura">
+    
+  <div class="bloco">
+
+    <h4 class="text-center">Extintores de incêndio <br> (Certificação, validade e garantia)
+    </h4>
+  <div class="container2">
+    
+   
+  
+         <img id = "picture">
+          <input type="file" accept="image/*" id = "quadro">
+          
+          
+    
+    
+          <div class = "quadro2">
+            <img id="rodas" src="images/exintores.jpg" alt=""/>
+          </div>
+          
+    
+    </div>
+    
+    <form method="" action="" id="extintores">
+   
+    <select name="lista" id="selecionar1">
+  
+      <option value="Certificação, validade e garantia dos exintores no padrão.">Certificação, validade e garantia dos exintores no padrão.</option>
+      <option value="Extintores próximo do vencimento. Realizar substituição.">Extintores próximo do vencimento. Realizar substituição.</option>
+      <option value="Extintor despressurizado. Realizar a substituição.">Extintor despressurizado. Realizar a substituição.</option>
+      <option value="Extintor com excesso de pressão. Realizar a substituição.">Extintor com excesso de pressão. Realizar a substituição.</option>
+      <option value="Extintor sem lacre. Realizar a substituição.">Extintor sem lacre. Realizar a substituição.</option>
+      <option value="Extintor vencido. Realizar a substituição.">Extintor vencido. Realizar a substituição.</option>
+      <option value="Extintores vencidos. Realizar a substituição.">Extintores vencidos. Realizar a substituição.</option>
+      <option value=""></option>
+  
+    </select>
+  
+    <button class="btn btn-secondary ml-2 p-1" onclick="clicou1()">Salvar</button>
+    
+    
+  </form>
+  <p>(Conforme item 5.3.1 – Certificação, validade e garantia da I.T. 21 - Sistema de proteção por extintores de incêndios)
+  </p>
+  
+  </div>
+  <div class="bloco">
+    <h4 class="text-center">Adesivo de alerta ao Benzeno<br>(Risco à saúde)</h4>
+    <div class="container2">
+   
+  
+         <img id = "picture2">
+          <input type="file" accept="image/*" id = "quadro2">
+          
+          
+    
+    
+          <div class = "quadro2">
+            <img id="rodas" src="images/benzeno.bmp" alt=""/>
+          </div>
+          
+    
+    </div>
+    
+    <form method="" action="" id="adesivobenzeno">
+   
+      <select name="lista" id="selecionar2">
+      
+      <option value="Adesivo de alerta ao risco do Benzeno à saúde no padrão.">Adesivo de alerta ao risco do Benzeno à saúde no padrão.</option>
+      <option value="Realizar a atualização do adesivo de alerta ao risco do Benzeno à saúde.">Realizar a atualização do adesivo de alerta ao risco do Benzeno à saúde.</option>
+      <option value="Realizar a troca do adesivo de alerta ao risco do Benzeno à saúde.">Realizar a troca do adesivo de alerta ao risco do Benzeno à saúde.</option>
+      <option value="Realizar a Instalação do adesivo de alerta ao risco do Benzeno à saúde.">Realizar a Instalação do adesivo de alerta ao risco do Benzeno à saúde.</option>
+      <option value=""></option>
+      
+    </select>
+    <button class="btn btn-secondary ml-2 p-1" onclick="clicou2()">Salvar</button>
+    
+  </form>
+  <p>(Conforme Portaria Nº 427, de 7 de Outubro de 2021)</p>
+  </div>
+  <div class="bloco">
+    <h4 class="text-center">Armazenamento de Amostra Testemunha</h4>
+    <div class="container2">
+   
+  
+         <img id = "picture3">
+          <input type="file" accept="image/*" id = "quadro3">
+          
+          
+    
+    
+          <div class = "quadro2">
+            <img id="rodas" src="images/amostra.bmp" alt=""/>
+          </div>
+          
+    
+    </div>
+    
+    <form method="" action="" id="armazenamento">
+   
+      <select name="lista" id="selecionar3">
+      
+      <option value="Acondicionar a amostra testemunha em envelope de segurança, armazenar em local arejado, sem incidência luz, fonte de calor  afastado de outras áreas de trabalho.">Acondicionar a amostra testemunha em envelope de segurança, armazenar em local arejado, sem incidência luz, fonte de calor  afastado de outras áreas de trabalho.</option>
+      <option value="Armazenamento da amostra testemunha no padrão.">Armazenamento da amostra testemunha no padrão.</option>
+      <option value=""></option>
+      
+    </select>
+    <button class="btn btn-secondary ml-2 p-1" onclick="clicou3()">Salvar</button>
+    
+  </form>
+  <p class="break">(Conforme o Item 10.1 – Anexo IV da NR20 – Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis )
+   
+  </p>
+  
+  </div>
+  
+
+  <div class="bloco">
+    <h4 class="text-center">Sinalização de Saída de Emergência</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture4">
+        <input type="file" accept="image/*" id = "quadro4">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/sinaseg.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action=""id="saida">
+
+  <select name="lista" id="selecionar4">
+    
+    <option value="Realizar a substituição da(s) placa(s) de sinalização de saída de emergência pela(s) adequada(s).">Realizar a substituição da(s) placa(s) de sinalização de saída de emergência pela(s) adequada(s).</option>
+    <option value="Placa(s) de sinalização de saída de emergência no padrão.">Placa(s) de sinalização de saída de emergência no padrão.</option>
+    <option value="Realizar a troca da placa de sinalização de saída de emergência. A placa está desbotada.">Realizar a troca da placa de sinalização de saída de emergência. A placa está desbotada.</option>
+    <option value="Instalar a placa de sinalização de saída de emergência.">Instalar a placa de sinalização de saída de emergência.</option>
+    <option value="Placa de sinalização desbotada. Realizar a troca.">Placa de sinalização desbotada. Realizar a troca.</option>
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou4()">Salvar</button>
+  
+</form>
+<p>(Conforme item 6.1.3 Sinalização de orientação e salvamento da  I.T.20 - NBR 13434 - sinalização de segurança contra incêndio e pânico). 
+</p>
+</div>
+
+<div class="bloco">
+  <h4 class="text-center">Caixa separadora de água e óleo</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture5">
+        <input type="file" accept="image/*" id = "quadro5">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/caixa_separadora.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="caixasepa">
+
+  <select name="lista" id="selecionar5">
+    
+    <option value="Realizar periodicamente a retirada e destinação dos resíduos  das caixas separadoras de água e óleo. 
+    Arquivar na empresa em local de fácil acesso o comprovante (MTR e CADRI) referente a retirada e destinação dos resíduos.">Realizar periodicamente a retirada e destinação dos resíduos  das caixas separadoras de água e óleo. 
+    Arquivar na empresa em local de fácil acesso o comprovante (MTR e CADRI) referente a retirada e destinação dos resíduos.</option>
+    <option value="Realizar manutenção da tampa de proteção da caixa separadora de água e óleo.">Realizar manutenção da tampa de proteção da caixa separadora de água e óleo.</option>
+    <option value="Realizar a instalação da tampa de proteção da caixa separadora de água e óleo.">Realizar a instalação da tampa de proteção da caixa separadora de água e óleo.</option>
+    <option value="Desobstruir a caixa separadora de água e óleo.">Desobstruir a caixa separadora de água e óleo.</option>
+    <option value="Não foi possível realizar a abertura.Realizar periodicamente a retirada e destinação dos resíduos  das caixas separadoras de água e óleo.
+     Arquivar na empresa em local de fácil acesso o comprovante (MTR e CADRI) referente a retirada e destinação dos resíduos.">Não foi possível realizar a abertura.Realizar periodicamente a retirada e destinação dos resíduos  das caixas separadoras de água e óleo.
+     Arquivar na empresa em local de fácil acesso o comprovante (MTR e CADRI) referente a retirada e destinação dos resíduos.</option>
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou5()">Salvar</button>
+  
+</form>
+<p>(Conforme determinação da CETESB) 
+</p>
+</div>
+
+<div class="bloco">
+  <h4 class="text-center">Tambores - Armazenamento de resíduos de óleo</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture6">
+        <input type="file" accept="image/*" id = "quadro6">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/residuos.jpg" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="residuos">
+
+  <select name="lista" id="selecionar6">
+    
+    <option value="Os tambores devem ser da cor laranja e ficar sobre pallets de contenção.Manter arquivado na empresa os recibos da retirada dos recipientes contaminados pelo prestador de serviços.">Os tambores devem ser da cor laranja e ficar sobre pallets de contenção.
+    Manter arquivado na empresa os recibos da retirada dos recipientes contaminados pelo prestador de serviços.</option>
+    <option value="Tambores de armazenamento de resíduos no padrão.">Tambores de armazenamento de resíduos no padrão.</option>
+     <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou6()">Salvar</button>
+  
+</form>
+<p class="break">(Conforme determinação da CETESB e Resolução CONAMA nº 275, de 25 de abril 2001)
+</p>
+</div>
+<div class="bloco">
+  <h4 class="text-center">Compressor</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture7">
+        <input type="file" accept="image/*" id = "quadro7">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/compressor.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="compressor">
+
+  <select name="lista" id="selecionar7">
+    
+    <option value="Compressor no padrão. Realizar periodicamente a inspeções de segurança inicial e extraordinária. Encaminhar o laudo para a Local 11.">Compressor no padrão. Realizar periodicamente a inspeções de segurança inicial e extraordinária. Encaminhar o laudo para a Local 11.</option>
+    <option value="Compressor no padrão. Realizar periodicamente a inspeções de segurança inicial e extraordinária. ">Compressor no padrão. Realizar periodicamente a inspeções de segurança inicial e extraordinária. </option>
+    <option value="Compressor com vazamento de óleo. Realizar a manutenção.">Compressor com vazamento de óleo. Realizar a manutenção.</option>
+    <option value="Compressor obstruído.  Realizar a desobstrução e encaminhar o laudo para a Local 11.">Compressor obstruído.  Realizar a desobstrução e encaminhar o laudo para a Local 11.</option>
+    <option value="Posicionar o compressor de modo que o Pressostato fique visível para  aferição e   manutenção.">Posicionar o compressor de modo que o Pressostato fique visível para  aferição e   manutenção.</option>
+
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou7()">Salvar</button>
+  
+  </form>
+  <p>(Conforme Itens 13.5.2.2 e 13.5.2.3 da Norma Regulamentadora nº 13 – Inspeção de Vasos de Pressão)</p>
+</div>
+
+<div class="bloco">
+  <h4 class="text-center">Quadro de distribuição de energia</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture8">
+        <input type="file" accept="image/*" id = "quadro8">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/quadroenergia.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="quadroenergia">
+
+  <select name="lista" id="selecionar8">
+    
+    <option value="Instalar a proteção no barramento exposto do(s) quadro(s) de distribuição para impedir o contato com as partes energizadas. ">Instalar a proteção no barramento exposto do(s) quadro(s) de distribuição para impedir o contato com as partes energizadas. </option>
+    <option value="Proteção do(s) quadro(s) de distribuição no padrão.">Proteção do(s) quadro(s) de distribuição no padrão.</option>
+    <option value="Realizar a manutenção da proteção do(s) quadro(s) de distribuição de energia.">Realizar a manutenção da proteção do(s) quadro(s) de distribuição de energia.</option>
+    <option value="Realizar a identificação dos disjuntores no quadro de distribuição de energia.">Realizar a identificação dos disjuntores no quadro de distribuição de energia.</option>
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou8()">Salvar</button>
+  
+</form>
+<p>(Conforme item 5.1.1 – Barreira da I.T. 41 - Instalações elétricas) 
+</p>
+
+</div>
+<div class="bloco">
+  <h4 class="text-center">Sinalização do quadro de distribuição de energia</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture9">
+        <input type="file" accept="image/*" id = "quadro9">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/sinaquadroenerg.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="sinaquadro">
+
+  <select name="lista" id="selecionar9">
+    
+    <option value="Instalar a placa de sinalização de segurança no(s) quadro(s) de energia. ">Instalar a placa de sinalização de segurança no(s) quadro(s) de energia. </option>
+    <option value="Realizar a substituição da(s) placa(s) de sinalização de segurança do(s) quadro(s) de energia pela adequada.">Realizar a substituição da(s) placa(s) de sinalização de segurança do(s) quadro(s) de energia pela adequada.</option>
+    <option value="Realizar a troca  da placa de sinalização de segurança do quadro de energia. A placa está desbotada.">Realizar a troca  da placa de sinalização de segurança do quadro de energia. A placa está desbotada.</option>
+    <option value="Sinalização do(s) quadro(s) de energia no padrão.">Sinalização do(s) quadro(s) de energia no padrão.</option>
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou9()">Salvar</button>
+  
+</form>
+<p class="break">(Conforme item 5.3.1.2 - Alerta da  I.T.20 - Sinalização de Segurança contra Incêndio e Pânico). 
+</p>
+</div>
+
+<div class="bloco">
+  <h4 class="text-center">Elétrica - tomadas</h4>
+  <div class="container2">
+ 
+
+       <img id = "picture10">
+        <input type="file" accept="image/*" id = "quadro10">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/tomada.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="tomada">
+
+  <select name="lista" id="selecionar10">
+    
+    <option value="Instalação das tomadas no padrão. ">Instalação das tomadas no padrão. </option>
+    <option value="Realizar a instalação do espelho da tomada.">Realizar a instalação do espelho da tomada.</option>
+    <option value="Realizar a instalação dos espelhos das tomadas.">Realizar a instalação dos espelhos das tomadas.</option>
+    <option value="Realizar a manutenção do espelho da tomada.">Realizar a manutenção do espelho da tomada.</option>
+    <option value="Realizar a manutenção dos espelhos das tomadas.">Realizar a manutenção dos espelhos das tomadas.</option>
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou10()">Salvar</button>
+  
+</form>
+<p>(Conforme item 6.1.3 - da I.T. 41 - Inspeção visual em instalações elétricas de baixa tensão) 
+</p>
+</div>
+
+<div class="bloco">
+  <h4 class="text-center">Instalação elétrica - Fios
+  </h4>
+  <div class="container2">
+ 
+
+       <img id = "picture11">
+        <input type="file" accept="image/*" id = "quadro11">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/fios.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="fios">
+
+  <select name="lista" id="selecionar11">
+    
+    <option value="Realizar o  acondicionamento dos fios e cabos em eletrocalhas / eletrodutos. ">Realizar o  acondicionamento dos fios e cabos em eletrocalhas / eletrodutos. </option>
+    <option value="Acondicionamento dos fios no padrão.">Acondicionamento dos fios no padrão.</option>
+
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou11()">Salvar</button>
+  
+</form>
+<p>(Conforme item 5.1.5 - Conduto da I.T. 41 - NBR 5410 – Instalações elétricas) 
+ 
+</p>
+</div>
+
+<div class="bloco">
+  <h4 class="text-center">Respingos de combustíveis
+  </h4>
+  <div class="container2">
+ 
+
+       <img id = "picture12">
+        <input type="file" accept="image/*" id = "quadro12">
+        
+        
+  
+  
+        <div class = "quadro2">
+          <img id="rodas" src="images/respingos.bmp" alt=""/>
+        </div>
+        
+  
+  </div>
+  
+  <form method="POST" action="" id="respingo">
+
+  <select name="lista" id="selecionar12">
+    
+    <option value="Proibida a  utilização de estopa para a contenção de respingos. Para a limpeza de superfícies contaminadas com combustíveis líquidos utilize luvas impermeáveis e tolhas de papel absorvente.">Proibida a  utilização de estopa para a contenção de respingos. Para a limpeza de superfícies contaminadas com combustíveis líquidos utilize luvas impermeáveis e tolhas de papel absorvente.</option>
+
+    <option value=""></option>
+    
+  </select>
+  <button class="btn btn-secondary ml-2 p-1" onclick="clicou12()">Salvar</button>
+  
+</form>
+<p>(Conforme item 5.1.5 - Conduto da I.T. 41 - NBR 5410 – Instalações elétricas) 
+ 
+</p>
+</div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+  </div>    
+</body>
+
+    
+
+</html>

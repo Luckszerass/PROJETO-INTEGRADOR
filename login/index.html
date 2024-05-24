@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+        input{
+            display: block;
+            margin: 5px auto;
+            width: 250px;
+            align-items: center;
+        }
+
+        .formulario{
+            width: 300px;
+            margin: 300px auto;
+            text-align: center;
+            background-color:aliceblue;
+            padding: 30px;
+            border-radius: 20px;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-color:rgb(250, 250, 247);
+        }
+    </style>
+
+
+</head>
+<body>
+   <form method="POST" class="formulario">
+    <h3>Login</h3>
+    <input type="text" placeholder="Login" id="login">
+    <input type="password" placeholder="Senha" id="senha">
+    <input type="submit" id="sub">
+
+
+   </form>
+   
+   
+   <script>
+    
+        function logar ( ) {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            if(login=='admin' && senha=='admin'){
+                alert('Conectado')
+               
+            }else {
+                alert('Login ou senha inválido');
+            }
+
+                    }
+                    
+
+    var enviar = document.querySelector('.formulario');
+
+    enviar.addEventListener("submit", (e)=>{
+        e.preventDefault()})
+
+    enviar.addEventListener("submit", logar)
+    
+ 
+    
+    </script>
+</body>
+</html>

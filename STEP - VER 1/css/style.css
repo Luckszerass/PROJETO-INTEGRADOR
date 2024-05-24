@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(198, 201, 204);
+    margin:0;
+}
+.container{background-color: rgb(203, 204, 206);
+    display: flex;
+    
+}
+.logo {
+    height: 100px;
+    border-radius: 10px;
+    
+}
+#logo1 {width: 200px;
+    padding: 30px;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    
+    
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin:0;
+    padding:0;
+    
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+nav .active a,
+nav a:hover {
+    background-color:rgba(169, 169, 169, 0.281);
+    border-radius: 15px;
+    
+
+}
+#GERAR {
+   
+    color: black ;
+   
+}
+h1 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.788);
+    
+      
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fachada</title>
+</head>
+<body>
+
+    <header>
+   
+        <div class = "container">
+          
+          <div class = "logo">
+            <img id = logo1 src="images/logo-yellow-black-black_LocalConsultoria.png" alt="">
+    
+          </div>
+          
+          <div class = "menu">
+            <a></a>
+            <nav>
+              <ul>
+                  
+                <li><a class="botao" href="index.html">HOME</a></li>
+                <li><a class="botao" href="">STEP</a></li>
+                <li><a class="botao" href="">RELATÓRIO</a></li>
+                <li><a class="botao" href="">SALVAR</a></li>
+                  
+              </ul>
+    
+    
+            </nav>
+    
+          </div>
+    
+    
+        </div>
+        
+      </header>  
+    
+     
+    
+    <div class="container2">
+      
+    
+      <div class ="menu2">
+        <nav class="menu2">
+        
+           
+          <button onclick= dadoscad() class="but">Dados Cadastrais.</button>
+          <button onclick= fachada() class="but">Fachada.</button>
+          <button onclick= benzeno() class="but">Adesivo - Benzeno</button>
+          <button onclick= sobreRodas() class="but">Extintor sobre rodas</button>
+          <button onclick= amostra() class="but">Amostra de Combustível</button>
+          <button onclick= caixaseparadora() class="but">Caixa Separadora</button>
+          <button onclick= saida_emergencia() class="but">Sinalização de Emergência</button>
+          <button onclick= quaenergia() class="but">Quadro de Energia</button>
+          <button onclick= sinaleletrico() class="but">Sinal.Eltrico.</button>
+        
+    
+    
+        </nav>
+ 
+
+<div>
+    <h1>Fachada</h1>
+    <p>placa cadastral</p>
+</div>
+
+
+<div class="campo">
+    <label for="nivel"><strong>Nível</strong></label>
+    <select id="nivel" required>
+      <option selected disabled value="">Selecione</option>
+      <option>Atenção</option>
+      <option>Grave</option>
+      <option>Gravissimo</option>
+    </select>
+</div>
+<fieldset class="grupo">
+   
+    <div id="check">
+        <label><strong>Pontos Positivos e recomendações:</strong></label><br><br>
+        <input type="checkbox" id="opcao1" name="opcao1" value="HTML">
+        <label for="opcao1"> Placa Cadastral no Padrão ANP</label>
+        <input type="checkbox" id="opcao2" name="opcao12" value="CSS">
+        <label for="opcao1"> Realizar a atualização da placa cadastral</label>
+        <input type="checkbox" id="opcao3" name="opcao13" value="JavaScript">
+        <label for="opcao1"> Realizar a troca cadastral</label>
+        <input type="checkbox" id="opcao4" name="opcao4" value="PHP">
+        <label for="opcao1"> Afixar a placa cadastral em local de fácil visualizaçao</label>
+    </div>
+</fieldset>
+
+
+<img class = "picture">
+<input type="file" accept="image/*" id = "quadro">
+<img class = "picture">

@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(198, 201, 204);
+    margin:0;
+}
+.container{background-color: rgb(217, 222, 226);
+    display: flex;
+    
+}
+.logo {
+    height: 100px;
+    border-radius: 10px;
+    
+}
+#logo1 {width: 200px;
+    padding: 30px;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+  
+    
+    
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin:0;
+    padding:0;
+    
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+nav .active .botao,
+nav .botao:hover {
+    background-color:rgba(169, 169, 169, 0.281);
+    border-radius: 15px;
+    
+
+}
+#GERAR {
+   
+    color: black ;
+   
+}
+h1 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.788);
+    
+      
+}
+.menu2 {
+    display: block;
+    margin-top: 15px;
+    align-items: center;
+    width: 200PX;
+    height: 100%;;
+    
+    
+      
+}
+.but {
+    width:190px;
+    padding: 10px;
+}
+
+.container2 {
+    display: flex;
+}
+#quadro {
+   
+    background-color:rgba(240, 248, 255, 0.199);
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.quadro2 {
+    background-color:rgba(240, 248, 255, 0.199);
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+#rodas {
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+}
+#picture{
+    display: flex;
+    background-color:rgba(240, 248, 255, 0.199);
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    color:#aaa;
+}
+input[type= 'file']{
+    display: none;
+}
+
